@@ -40,3 +40,8 @@ body {
 .carousel-control-next-icon {
   background-image: url("arrow-right.png"); /* Replace with your right arrow image */
 }
+
+.justified-paragraph {
+    text-align: justify;
+    font-size: 1.2rem
+  }
