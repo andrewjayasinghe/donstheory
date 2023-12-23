@@ -5,3 +5,38 @@
 .lead2{
     font-size: 1.6rem;
 }
+
+body {
+    background-color: #f8f9fa;
+  }
+
+  .jumbotron {
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 0; /* Remove rounded edges */
+  }
+
+  .resume-section {
+    padding: 60px 0;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+
+  .carousel-item {
+    transition: transform 1s ease-in-out;
+  }
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  background-image: url("arrow-left.png"); /* Replace with your left arrow image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-control-next-icon {
+  background-image: url("arrow-right.png"); /* Replace with your right arrow image */
+}
