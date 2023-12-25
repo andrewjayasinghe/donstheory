@@ -45,3 +45,9 @@ body {
     text-align: justify;
     font-size: 1.2rem
   }
+
+  .centvideo{
+    width:140%;
+    height:140%;
+    position:relative; display:block; width: 100%;
+  }
